@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMI Calculator</title>
+</head>
+<body>
+  <script>
+
+    function calculateBMI(weight, height) {
+      let bmi = weight / (height * height);
+      return bmi.toFixed(2); 
+    }
+
+
+    const name = prompt("Enter your name:");
+    const weight = parseFloat(prompt("Enter your weight in kilograms (kg):"));
+    const height = parseFloat(prompt("Enter your height in meters (m):"));
+
+
+    const bmi = calculateBMI(weight, height);
+
+    console.log(`Hello ${name}! Your BMI is ${bmi}.`);
+  </script>
+</body>
+</html>
