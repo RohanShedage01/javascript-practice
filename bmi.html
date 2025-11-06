@@ -6,7 +6,7 @@
 <body>
   <script>
 
-    function calculateBMI(weight, height) {
+    function greet(weight, height) {
       let bmi = weight / (height * height);
       return bmi.toFixed(2); 
     }
@@ -17,7 +17,7 @@
     const height = parseFloat(prompt("Enter your height in meters (m):"));
 
 
-    const bmi = calculateBMI(weight, height);
+    const bmi = greet(weight, height);
 
     console.log(`Hello ${name}! Your BMI is ${bmi}.`);
   </script>
