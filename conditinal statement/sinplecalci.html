@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>simple calci using switch case</title>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt("enter your first number"));
+        let b = parseInt(prompt("enter your secend number"));
+
+        let operator = prompt("+,-,*,/,%");
+
+        switch (operator) {
+            case "+" : 
+            console.log("Result :-",a+b);
+            break;
+
+            case "-" : 
+            console.log("Result :-",a-b);
+            break;
+
+            case "*" : 
+            console.log("Result :-",a*b);
+            break;
+
+            case "/" : 
+            console.log("Result :-",a/b);
+            break;
+
+            case "%" : 
+            console.log("Result :-",a%b);
+            break;
+
+            default :
+            console.log("enter valid operator");
+        }
+    </script>
+</body>
+</html>
