@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="privateKey">Good Morning</p>
+    <button onclick="goodMorning()">Good Morning</button>
+    <button onclick="goodNight()">Good Night</button>
+</body>
+<script>
+    function goodMorning() {
+        const storeDate = document.getElementById("privateKey");
+        storeDate.innerText = "Good Morning user!";
+    }
+
+    function goodNight() {
+       const storeDate = document.getElementById("privateKey");
+        storeDate.innerText = "Good Night user!";
+    }
+</script>
+</html>
