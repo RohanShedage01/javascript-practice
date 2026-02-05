@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p1 id="para1">Good Morning </p1>
+    <button onclick="ChangeTxt()">Change</button>
+</body>
+<script>
+    function ChangeTxt() {
+      let user = "Rohan";
+      let updatetxt = document.getElementById("para1");
+      updatetxt.innerText =`Good Morning ${user}`;
+    }
+</script>
+</html>

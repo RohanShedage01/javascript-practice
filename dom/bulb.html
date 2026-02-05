@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bulb On Off</title>
+</head>
+<body>
+
+    <img src="/img/lightbulb.png" id="imgbulb" height="100px">
+
+    <br><br>
+
+    <button onclick="onBulb()">ON</button>
+    <button onclick="offBulb()">OFF</button>
+
+<script>
+    function onBulb() {
+        const img = document.getElementById("imgbulb");
+        img.src = "/img/lightbulb (1).png"; 
+    }
+
+    function offBulb() {
+        const img = document.getElementById("imgbulb");
+        img.src = "/img/lightbulb.png";
+    }
+</script>
+
+</body>
+</html>
