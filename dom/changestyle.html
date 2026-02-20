@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      #text {
+            color: red;
+      }
+    </style>
 </head>
 <body>
-    <p id="main">
-        rohan shedage <i>sourabh shedage</i>
-    </p>
+    <p id="text"> i am learning javascript</p>
 </body>
-
 <script>
-    let ele1 = document.getElementById("main");
-    ele1.innerHTML = "<b>sourabh shedage</b>";
+    let txt = document.getElementById("text");
+    txt.style.color ="blue";
 </script>
 </html>

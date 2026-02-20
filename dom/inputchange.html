@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello <span id="changeElement">guest</span></h1>
+    <input type="text" placeholder="Enter your name" id="inputElement">
+    <button onclick="changeName()">change</button>
+</body>
+<script>
+    function changeName(){
+        let inputElement = document.getElementById("inputElement");
+        let changeElement = document.getElementById("changeElement");
+        changeElement.innerText = inputElement.value;
+    }
+</script>
+</html>
